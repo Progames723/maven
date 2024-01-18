@@ -6,7 +6,7 @@ Maven repository for my mods i guess
 repositories {
     maven {
         name = "Progames723 mods or smh"
-        url = "https://raw.githubusercontent.com/Progames723/maven/master/maven/"
+        url = "https://github.com/Progames723/maven/tree/main/maven/"
     }
 }
 
