@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.progames723",
+    "module": "hmmm-forge",
+    "version": "0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "10.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmmm-forge-0.2.jar",
+          "url": "hmmm-forge-0.2.jar",
+          "size": 12800,
+          "sha512": "4c9a426866dc37c7117f3aded5514af36c5af2958656660f6ca10af6954c966957bac8965c6d8715cc175a4a5e98ad22b1c24d464d9af784e09c57f27afc15c3",
+          "sha256": "0c1d02d1919951a624094052365a11213a2ffc1559314cfd467fff65e0e438d5",
+          "sha1": "494085a082d2b3916567c6929eac75cab0463ab0",
+          "md5": "700f68db9b9d7a93206f678cc45a56dd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "10.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmmm-forge-0.2.jar",
+          "url": "hmmm-forge-0.2.jar",
+          "size": 12800,
+          "sha512": "4c9a426866dc37c7117f3aded5514af36c5af2958656660f6ca10af6954c966957bac8965c6d8715cc175a4a5e98ad22b1c24d464d9af784e09c57f27afc15c3",
+          "sha256": "0c1d02d1919951a624094052365a11213a2ffc1559314cfd467fff65e0e438d5",
+          "sha1": "494085a082d2b3916567c6929eac75cab0463ab0",
+          "md5": "700f68db9b9d7a93206f678cc45a56dd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hmmm-forge-0.2-sources.jar",
+          "url": "hmmm-forge-0.2-sources.jar",
+          "size": 12610,
+          "sha512": "4164864eec05ff305552a35b55248e1765650e84744cad3dc5497d514a4d8482f1c81a34aa13f5f8bfe1ee815676ae1c7f7370f162fd7737c669a5a9133c3197",
+          "sha256": "baa33b6e2f3d43cf9800851c0bb6f406eccadca2ee33459cb87cf33cd7050afd",
+          "sha1": "68abc2694cacbc401e05197fd85cab6f4de266b1",
+          "md5": "435f0727e70767404de1246c8137e760"
+        }
+      ]
+    }
+  ]
+}
