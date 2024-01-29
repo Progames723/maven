@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.progames723",
+    "module": "hmmm-common",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury",
+          "version": {
+            "requires": "10.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmmm-common-0.2.1.jar",
+          "url": "hmmm-common-0.2.1.jar",
+          "size": 10121,
+          "sha512": "38d294a9923c22f8462a703c8ca8bad269a309ddef30d58c4efa4925dbaf47ff233514ae3ea48cefd31c1bc7bb69444e2c203685ea1f47b8e4d335e265067278",
+          "sha256": "a6774c347103eec4ccf679600a6f61c76d716dfad96cddcf9824a81dbc8d0820",
+          "sha1": "ae59441176e7ebc1d5072201630695c99f51b511",
+          "md5": "b39df2c25116bcf801a185d4dc7c4139"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury",
+          "version": {
+            "requires": "10.0.17"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmmm-common-0.2.1.jar",
+          "url": "hmmm-common-0.2.1.jar",
+          "size": 10121,
+          "sha512": "38d294a9923c22f8462a703c8ca8bad269a309ddef30d58c4efa4925dbaf47ff233514ae3ea48cefd31c1bc7bb69444e2c203685ea1f47b8e4d335e265067278",
+          "sha256": "a6774c347103eec4ccf679600a6f61c76d716dfad96cddcf9824a81dbc8d0820",
+          "sha1": "ae59441176e7ebc1d5072201630695c99f51b511",
+          "md5": "b39df2c25116bcf801a185d4dc7c4139"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hmmm-common-0.2.1-sources.jar",
+          "url": "hmmm-common-0.2.1-sources.jar",
+          "size": 9468,
+          "sha512": "dac5777ab923986b2e990733b08774c964c21497a01acb6024696624146cbc5c5ba3f4feb3219a54c8a415f621bbfd2cdece863826d556fbdcdacd9d832e21bc",
+          "sha256": "9657fdd9757789b818fce7cfd9c66416a9ead3eb74ba859a6c829c054da32cec",
+          "sha1": "dbb8b64da3c54afe0c904714b5215d23983b20fe",
+          "md5": "5b96dc0c1368ff11b5213609c003f948"
+        }
+      ]
+    }
+  ]
+}
