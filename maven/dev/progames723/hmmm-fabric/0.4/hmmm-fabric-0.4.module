@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.progames723",
+    "module": "hmmm-fabric",
+    "version": "0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.91.3+1.20.2"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "10.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmmm-fabric-0.4.jar",
+          "url": "hmmm-fabric-0.4.jar",
+          "size": 41490,
+          "sha512": "9cfb27586113954441f5aed705213eeae78491574ce24d93efdae657e5c84fd7f8c4bc7a7106da75a0698e8af6c69c8304838770a27930f7d8f22053bbab59b0",
+          "sha256": "174cdb6db24ccf97ddc7babd6ec1467dc23b85d685ce86676d22b77efd740298",
+          "sha1": "6913d2c1b3d689d16e77d726cf8c829ac132ace7",
+          "md5": "8b5a91aeecb95506f95d68a2da161ff2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.91.3+1.20.2"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "10.0.17"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmmm-fabric-0.4.jar",
+          "url": "hmmm-fabric-0.4.jar",
+          "size": 41490,
+          "sha512": "9cfb27586113954441f5aed705213eeae78491574ce24d93efdae657e5c84fd7f8c4bc7a7106da75a0698e8af6c69c8304838770a27930f7d8f22053bbab59b0",
+          "sha256": "174cdb6db24ccf97ddc7babd6ec1467dc23b85d685ce86676d22b77efd740298",
+          "sha1": "6913d2c1b3d689d16e77d726cf8c829ac132ace7",
+          "md5": "8b5a91aeecb95506f95d68a2da161ff2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hmmm-fabric-0.4-sources.jar",
+          "url": "hmmm-fabric-0.4-sources.jar",
+          "size": 20132,
+          "sha512": "537fec05dd74c9e282e7bdbbb1a56780d6a57e8c27c1d03924d486a8837b72e47ae6b890c7ca364c006806af2ae3eab52c3ed6b0ed4eca22e49938006b4eb170",
+          "sha256": "373bf800febb5b1a77d3839492a09a5f0616da374489dcd8861200787f45a227",
+          "sha1": "35e6c14d5bbe65311635e3f8b621bd253b01e130",
+          "md5": "b9149616f89fef8c166625cced4eb393"
+        }
+      ]
+    }
+  ]
+}
