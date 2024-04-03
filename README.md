@@ -5,7 +5,7 @@ Maven repository for my mods i guess
 ```gradle
 repositories {
     maven {
-        name = "Progames723 mods or smh"
+        name = "Progames723 mods or smh" // optional
         url = "https://github.com/Progames723/maven/raw/main/maven/"
     }
 }
