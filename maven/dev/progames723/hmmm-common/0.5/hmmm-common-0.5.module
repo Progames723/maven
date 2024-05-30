@@ -36,11 +36,11 @@
         {
           "name": "hmmm-common-0.5.jar",
           "url": "hmmm-common-0.5.jar",
-          "size": 46906,
-          "sha512": "22e3f8b2d67787e832d62762b9802a2a88d08828f677a3d2f2f7b2fc9fbad90367f9cd38e6e14a0a33c49c864aa644b0cda70f39ab3aa2951acf1f0836d0a487",
-          "sha256": "ef702e63b845473cf946027e50bb074d1254f8d832fa1973c27eb0c6f34ba3d6",
-          "sha1": "97b67f95b9f1640989efbcf7c05b1ae19394fdc0",
-          "md5": "5e91783f068ec27b34ca239e0a3abe48"
+          "size": 46689,
+          "sha512": "ff1e33ed80348802676bf10c863d687ba65f66e2bac07a07396baf4513760eb1ef66995f71a96ee388dc553b3afffe80da77324a38e96e4104cc6c10e629431f",
+          "sha256": "b3d8bc24b280c3c81c26fe43476f79d99cabe6505b30dcd2c49602af4e52da3c",
+          "sha1": "b41bab0c957f4dc8cf5473260ce811506e722004",
+          "md5": "b18972bea0a716ee37998121b2314b81"
         }
       ]
     },
@@ -80,11 +80,11 @@
         {
           "name": "hmmm-common-0.5.jar",
           "url": "hmmm-common-0.5.jar",
-          "size": 46906,
-          "sha512": "22e3f8b2d67787e832d62762b9802a2a88d08828f677a3d2f2f7b2fc9fbad90367f9cd38e6e14a0a33c49c864aa644b0cda70f39ab3aa2951acf1f0836d0a487",
-          "sha256": "ef702e63b845473cf946027e50bb074d1254f8d832fa1973c27eb0c6f34ba3d6",
-          "sha1": "97b67f95b9f1640989efbcf7c05b1ae19394fdc0",
-          "md5": "5e91783f068ec27b34ca239e0a3abe48"
+          "size": 46689,
+          "sha512": "ff1e33ed80348802676bf10c863d687ba65f66e2bac07a07396baf4513760eb1ef66995f71a96ee388dc553b3afffe80da77324a38e96e4104cc6c10e629431f",
+          "sha256": "b3d8bc24b280c3c81c26fe43476f79d99cabe6505b30dcd2c49602af4e52da3c",
+          "sha1": "b41bab0c957f4dc8cf5473260ce811506e722004",
+          "md5": "b18972bea0a716ee37998121b2314b81"
         }
       ]
     },
@@ -100,11 +100,11 @@
         {
           "name": "hmmm-common-0.5-sources.jar",
           "url": "hmmm-common-0.5-sources.jar",
-          "size": 25347,
-          "sha512": "dd1286f2631ac7dbf58d3e7e8b3707d9747c6776faeb31edb0fadaa1eda8a085a4017ac3a9ef1e9658b5101b54e3223835e43272dfaa37d7a6c48705622790bf",
-          "sha256": "08d90f1fd7054c90feb4c618401a2d9306a6cf12ce2532594cba78d818b107a4",
-          "sha1": "eed1712d084dc91842c8ad0fc7d68ad0b821c83d",
-          "md5": "4d34f7f27b5b5712c7c1cd3d5534d62c"
+          "size": 25092,
+          "sha512": "15dc90b4c960c9c487c89d9aaa5736621dc0f53ff62c8b2d66a0c43f82f1e724a24fa1ac06253133a440e05e60492805e453981e177f4f2a94d18157d189225a",
+          "sha256": "c1e05532e2c7b0720dd72cda386fb3a056312b73dced63ea1391c8e56abd65ca",
+          "sha1": "7bab50108af478e5feaa600f2277bfc09d60e9e0",
+          "md5": "ce030fc4f0805ce27839037c294f8654"
         }
       ]
     }
