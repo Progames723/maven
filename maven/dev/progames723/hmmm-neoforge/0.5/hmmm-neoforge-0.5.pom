@@ -12,6 +12,12 @@
   <version>0.5</version>
   <dependencies>
     <dependency>
+      <groupId>io.github.llamalad7</groupId>
+      <artifactId>mixinextras-neoforge</artifactId>
+      <version>0.3.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>dev.architectury</groupId>
       <artifactId>architectury-neoforge</artifactId>
       <version>10.0.17</version>

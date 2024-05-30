@@ -27,11 +27,11 @@
         {
           "name": "hmmm-neoforge-0.5.jar",
           "url": "hmmm-neoforge-0.5.jar",
-          "size": 47419,
-          "sha512": "da81737a7cfec8d0d6a29fb20cc2b5d66c46ed5570710bbb8cfbb0cbbafad6c87bf970fa82f6a8f85b5024d4f05f2a209bd031ab1176e9da64b605dbe9aa15de",
-          "sha256": "fa8ae99d5c38b0d4571d99d40b8131031df696353c4669c5c39eaff07a6c7685",
-          "sha1": "725d5c4e37ce4dfa762521fd2168fdfb49873cb4",
-          "md5": "3caa2b6a93647831f42e92aefff97a26"
+          "size": 203669,
+          "sha512": "0f535273f46ec40adf2f9cfb388c1b07463967f9961bed9b7c50d20fb1efa3b76e7bb63a95413cbce42569e5e968f1d4f1033fe0d746aed554e6b33a46981d71",
+          "sha256": "7f8f9dcdfe3c672bc759f30e409f3c608008ff545a1ea38116dba49bdab50189",
+          "sha1": "ea7af90ef48e0ee878c2d6b3edf7d9b38ccb9769",
+          "md5": "9c4c371bd566f6b846501e80e5d8d03c"
         }
       ]
     },
@@ -46,6 +46,13 @@
       },
       "dependencies": [
         {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.3.6"
+          }
+        },
+        {
           "group": "dev.architectury",
           "module": "architectury-neoforge",
           "version": {
@@ -57,11 +64,11 @@
         {
           "name": "hmmm-neoforge-0.5.jar",
           "url": "hmmm-neoforge-0.5.jar",
-          "size": 47419,
-          "sha512": "da81737a7cfec8d0d6a29fb20cc2b5d66c46ed5570710bbb8cfbb0cbbafad6c87bf970fa82f6a8f85b5024d4f05f2a209bd031ab1176e9da64b605dbe9aa15de",
-          "sha256": "fa8ae99d5c38b0d4571d99d40b8131031df696353c4669c5c39eaff07a6c7685",
-          "sha1": "725d5c4e37ce4dfa762521fd2168fdfb49873cb4",
-          "md5": "3caa2b6a93647831f42e92aefff97a26"
+          "size": 203669,
+          "sha512": "0f535273f46ec40adf2f9cfb388c1b07463967f9961bed9b7c50d20fb1efa3b76e7bb63a95413cbce42569e5e968f1d4f1033fe0d746aed554e6b33a46981d71",
+          "sha256": "7f8f9dcdfe3c672bc759f30e409f3c608008ff545a1ea38116dba49bdab50189",
+          "sha1": "ea7af90ef48e0ee878c2d6b3edf7d9b38ccb9769",
+          "md5": "9c4c371bd566f6b846501e80e5d8d03c"
         }
       ]
     },
@@ -77,31 +84,11 @@
         {
           "name": "hmmm-neoforge-0.5-sources.jar",
           "url": "hmmm-neoforge-0.5-sources.jar",
-          "size": 2888,
-          "sha512": "b42c616b14232afd15d133ab93eb474da4660880c62af75efe7e3736c822700498e044a8d9f230653c98f416d0d617bb1a024acbbef5496d84c3e45d9a7c2075",
-          "sha256": "9d69b4cfb3de7d5ae400c108dfa1882af88529d61af675249cdf6c41c0013e12",
-          "sha1": "94ee7ee55ee380d239f2906299cc86bce7da5c89",
-          "md5": "874a309d9954e6dd548aea4f735d57bc"
-        }
-      ]
-    },
-    {
-      "name": "shadowRuntimeElements",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.dependency.bundling": "shadowed",
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime"
-      },
-      "files": [
-        {
-          "name": "hmmm-neoforge-0.5-dev-shadow.jar",
-          "url": "hmmm-neoforge-0.5-dev-shadow.jar",
-          "size": 45569,
-          "sha512": "c3fee04c2765242dc0a89330b58d2dd67785dac3a9ea94663eeae9e362330c3ddf080b2bc71532eecb48fde1031a4d9ff0f00cb8a27550ba6a99aaa13c55c9b6",
-          "sha256": "d8bcbc15cc74df88f2a8b60fc1dc58778e052271f7e6dcffdfd2e810249db8ce",
-          "sha1": "63d90840f2ca22261a2dbc485bc68bb92608b52d",
-          "md5": "9300d9fdb04a5e88e41d050d5e2893d3"
+          "size": 27411,
+          "sha512": "bea97f2b23c2e11620ef53b2a708257c3af57ce0b9caa59d370c4befa594c387a26fcf216d502f393c5b722276aee50c2cd671983ac4813a40362d40ef2cf701",
+          "sha256": "baf47f6237b5bc10d8a7a6d5f438837e698a9026f2e96fadaaeeaa9ff5846eca",
+          "sha1": "46a6a51c511d20731132e9f3c4ab66ea1aff1fb1",
+          "md5": "400dd3f171663d2ad3a4c26d792d464c"
         }
       ]
     }
