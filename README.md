@@ -12,20 +12,22 @@ repositories {
 
 dependencies {
     // Common
-    modApi "dev.progames723:<mod>-common:<modVersion>"
-    // alternative
-    modImplementation "dev.progames723:<mod>-common:<modVersion>"
+    modApi "dev.progames723:<mod>:common:<modVersion>"
+    // or
+    modImplementation "dev.progames723:<mod>:common:<modVersion>"
 
     // Fabric
-    modApi "dev.progames723:<mod>-fabric:<modVersion>"
-    // alternative
-    modImplementation "dev.progames723:<mod>-fabric:<modVersion>"
+    modApi "dev.progames723:<mod>:fabric:<modVersion>"
+    // or
+    modImplementation "dev.progames723:<mod>:fabric:<modVersion>"
 
     // Forge
-    api fg.deobf("dev.progames723:<mod>-forge:<modVersion>")
-    // alternative(only if you use architectury)
-    modApi "dev.progames723:<mod>-forge:<modVersion>"
-    // alternative to the alternative
-    modImplementation "dev.progames723:<mod>-forge:<modVersion>"
+    implementation fg.deobf("dev.progames723:<mod>:forge:<modVersion>")
+    // or
+    modApi "dev.progames723:<mod>:forge:<modVersion>"
+    // or
+    modImplementation "dev.progames723:<mod>:forge:<modVersion>"
+
+    //i hope neoforge is obvious
 }
 ```
