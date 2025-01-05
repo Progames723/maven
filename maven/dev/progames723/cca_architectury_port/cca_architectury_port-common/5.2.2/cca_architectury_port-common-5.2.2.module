@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.progames723",
+    "module": "cca_architectury_port-common",
+    "version": "5.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury",
+          "version": {
+            "requires": "9.1.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cca_architectury_port-common-5.2.2.jar",
+          "url": "cca_architectury_port-common-5.2.2.jar",
+          "size": 245252,
+          "sha512": "7c41bb72c9d68d1901a967cf46c30efb8ed737fadfeb8f49e7b8e4989666e3eb234f013fd20f6b0181b012287226f9d8868479f0ba2f1e0432991ff55ed4e0b3",
+          "sha256": "1a06fba6563c243c98139f4f1c2d4ef023d716f4fd01125871e105acd1cbe3b9",
+          "sha1": "175cf462019b9b9286d7324a3a9f015d7c50814b",
+          "md5": "970003994c9de223826e3e2705d1a9a6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.classgraph",
+          "module": "classgraph",
+          "version": {
+            "requires": "4.8.179"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury",
+          "version": {
+            "requires": "9.1.12"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cca_architectury_port-common-5.2.2.jar",
+          "url": "cca_architectury_port-common-5.2.2.jar",
+          "size": 245252,
+          "sha512": "7c41bb72c9d68d1901a967cf46c30efb8ed737fadfeb8f49e7b8e4989666e3eb234f013fd20f6b0181b012287226f9d8868479f0ba2f1e0432991ff55ed4e0b3",
+          "sha256": "1a06fba6563c243c98139f4f1c2d4ef023d716f4fd01125871e105acd1cbe3b9",
+          "sha1": "175cf462019b9b9286d7324a3a9f015d7c50814b",
+          "md5": "970003994c9de223826e3e2705d1a9a6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cca_architectury_port-common-5.2.2-sources.jar",
+          "url": "cca_architectury_port-common-5.2.2-sources.jar",
+          "size": 245259,
+          "sha512": "03079cb8edf65fb41aee97defafd2fbdce2ab5f5c70285aa866c2e1526a256e3d6c8f19966cf6b8f49aaab9962f589c93b637defce2fe6b6ba7b459a00306bdb",
+          "sha256": "2eb9e041570b47822dbef03f3ef02f3508ad452bee8e3b44e0850e11ae12b65d",
+          "sha1": "5ef6c658ca1dd29604bccf497eb1f2687bc968cf",
+          "md5": "35c6cf675bd4b8cf8897794dfcb8282d"
+        }
+      ]
+    }
+  ]
+}

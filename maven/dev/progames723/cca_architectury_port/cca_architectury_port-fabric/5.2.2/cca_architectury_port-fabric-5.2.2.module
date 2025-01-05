@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.progames723",
+    "module": "cca_architectury_port-fabric",
+    "version": "5.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.1.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cca_architectury_port-fabric-5.2.2.jar",
+          "url": "cca_architectury_port-fabric-5.2.2.jar",
+          "size": 785223,
+          "sha512": "3e6b2e91e7e7d8521e924586e54675934c8632f220b7220d661846c93dcc297d9bdb3334df403d829a14f8a43ac5abcd286dce0f4d54b87cbc632d0283fa6fbc",
+          "sha256": "456228e5c1e360a673ae3ff4e4aad633ff7b74acfc18e90cc1bfa4041af4fe9c",
+          "sha1": "9f540432b5900c8848469a66670783bcbb8940b1",
+          "md5": "0ece6eabcbf9749fddd4c98b4149b3fd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.classgraph",
+          "module": "classgraph",
+          "version": {
+            "requires": "4.8.179"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.1.12"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.83.0+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cca_architectury_port-fabric-5.2.2.jar",
+          "url": "cca_architectury_port-fabric-5.2.2.jar",
+          "size": 785223,
+          "sha512": "3e6b2e91e7e7d8521e924586e54675934c8632f220b7220d661846c93dcc297d9bdb3334df403d829a14f8a43ac5abcd286dce0f4d54b87cbc632d0283fa6fbc",
+          "sha256": "456228e5c1e360a673ae3ff4e4aad633ff7b74acfc18e90cc1bfa4041af4fe9c",
+          "sha1": "9f540432b5900c8848469a66670783bcbb8940b1",
+          "md5": "0ece6eabcbf9749fddd4c98b4149b3fd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cca_architectury_port-fabric-5.2.2-sources.jar",
+          "url": "cca_architectury_port-fabric-5.2.2-sources.jar",
+          "size": 2155,
+          "sha512": "ba25f40ce070bd3f7f782e96127b778b6782acf9395f73c2fc7970da8e58227b4f5413aaf9968a043ab3d04167b29bcd69f2ee4ded865e48b3f3321fb0c24618",
+          "sha256": "70380ff2d63fb301c90dcaa9aeb931b19aed6c84d106361ea22e745615f79033",
+          "sha1": "ee298c14f2812563aeb24408dae0f994d20e17ea",
+          "md5": "c5f70b5c3409ef61bcdfbec8f40c6719"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cca_architectury_port-fabric-5.2.2-dev-shadow.jar",
+          "url": "cca_architectury_port-fabric-5.2.2-dev-shadow.jar",
+          "size": 240467,
+          "sha512": "b26f3601c414549534c99e8dbb9ffa94c9026125a75773f743828207e0fadca923210a12f364bc6789930f39fc48274917740470ca27c185ceb29af952f51b61",
+          "sha256": "169e0b6fe99615e781bd0e9b102c7aebc01577a64b3565a0fb9c42a019bc681c",
+          "sha1": "97e93c854af5f1910abb4d61660ed2c818650064",
+          "md5": "ef8cca6fb4cd46621f5960a0cdb3a62a"
+        }
+      ]
+    }
+  ]
+}

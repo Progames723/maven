@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.progames723",
+    "module": "cca_architectury_port-forge",
+    "version": "5.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "9.1.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cca_architectury_port-forge-5.2.2.jar",
+          "url": "cca_architectury_port-forge-5.2.2.jar",
+          "size": 787222,
+          "sha512": "ee88c06c7533cfdb47f43ba6ba08d83b38de8de919178891c682e89654a4d9422ac7199f90217b79b722b81827890756164848ada34d579bdd957fe464af8a33",
+          "sha256": "8472a4ddd0d29e4c3b0c0c9826e7bbf167b37051722b21c0bf835783863c1cb8",
+          "sha1": "b4b0406542e74025aeda959ef579722bbfcb8cf3",
+          "md5": "8d796c0a4bb2cf0110f44434c5696bb6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.classgraph",
+          "module": "classgraph",
+          "version": {
+            "requires": "4.8.179"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "9.1.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cca_architectury_port-forge-5.2.2.jar",
+          "url": "cca_architectury_port-forge-5.2.2.jar",
+          "size": 787222,
+          "sha512": "ee88c06c7533cfdb47f43ba6ba08d83b38de8de919178891c682e89654a4d9422ac7199f90217b79b722b81827890756164848ada34d579bdd957fe464af8a33",
+          "sha256": "8472a4ddd0d29e4c3b0c0c9826e7bbf167b37051722b21c0bf835783863c1cb8",
+          "sha1": "b4b0406542e74025aeda959ef579722bbfcb8cf3",
+          "md5": "8d796c0a4bb2cf0110f44434c5696bb6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cca_architectury_port-forge-5.2.2-sources.jar",
+          "url": "cca_architectury_port-forge-5.2.2-sources.jar",
+          "size": 2349,
+          "sha512": "bf2acdfe661bfd58ae859088e2e3347e3609f6cfcb234518a393909e2b57a84c7fb41ac15aa5566c4d4fb2f9164d7770148efc72a7eff51b9fcbfb44efacc139",
+          "sha256": "843bf2642ad390b6d385330525d30a858399d7a5158e6bdc25ad9d1cc9febf98",
+          "sha1": "abdf3a3314f3a5b2e003e46383621928025489a3",
+          "md5": "3b10a0b75f3c66c5c9074a4584bfe539"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cca_architectury_port-forge-5.2.2-dev-shadow.jar",
+          "url": "cca_architectury_port-forge-5.2.2-dev-shadow.jar",
+          "size": 240977,
+          "sha512": "4104a3dae1cf5eb1bb78f11155d8563c4869887840ee6690f2e8fe0eaec8496fb94d9049f216f7497d14b58c4795eb6380a413a8b4b2b131499d47ad75d45cbd",
+          "sha256": "5cdb316ab6ecaa27928c1b8c668b0bcb6cffbc04d708ce1a2504dad0268737ba",
+          "sha1": "c40ce13132b5711c95a40eb8b67c5946134e58e8",
+          "md5": "35018dc58a6395e6b5a10608e781759d"
+        }
+      ]
+    }
+  ]
+}
