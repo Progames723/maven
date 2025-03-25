@@ -13,8 +13,8 @@ repositories {
 }
 
 dependencies {
-    modImplementation "dev.progames723:<artifact>:<type>:<version>"
+    modImplementation "dev.progames723.<artifact>:<artifact>:<type>:<version>"
     //or
-    implementation "dev.progames723:<artifact>:<type>:<version>"
+    implementation "dev.progames723.<artifact>:<artifact>:<type>:<version>"
 }
 ```
