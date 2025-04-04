@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>dev.progames723.hmmm_natives</groupId>
-  <artifactId>hmmm-natives-platform</artifactId>
+  <artifactId>hmmm_natives-platform</artifactId>
   <versioning>
     <latest>1.1</latest>
     <release>1.1</release>
