@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.progames723.esll",
+    "module": "esll",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "esll-1.0.jar",
+          "url": "esll-1.0.jar",
+          "size": 8801,
+          "sha512": "627e92dfaa6e06e65fdaae5edaeb22080fc6b0246a5de0d766a0d34319a02ce605e4289082346d103cd7d4ca7c18fb1f761285aeeb46370775aaa28ab31578e6",
+          "sha256": "f33880679a86dccb3a46c2d10f7fcdcdfeb48f3279b672d40fc60d0b446af173",
+          "sha1": "343c488039c3ad6ab9b4074573be9df85645f2f9",
+          "md5": "007a0604b1f4b0c69959a5865cb99f43"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "esll-1.0.jar",
+          "url": "esll-1.0.jar",
+          "size": 8801,
+          "sha512": "627e92dfaa6e06e65fdaae5edaeb22080fc6b0246a5de0d766a0d34319a02ce605e4289082346d103cd7d4ca7c18fb1f761285aeeb46370775aaa28ab31578e6",
+          "sha256": "f33880679a86dccb3a46c2d10f7fcdcdfeb48f3279b672d40fc60d0b446af173",
+          "sha1": "343c488039c3ad6ab9b4074573be9df85645f2f9",
+          "md5": "007a0604b1f4b0c69959a5865cb99f43"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "esll-1.0-sources.jar",
+          "url": "esll-1.0-sources.jar",
+          "size": 4741,
+          "sha512": "229c887f763e8055baf48a0344ad7113446cfead41c95e813bd0a09963535d7ad12b75d2c933d65309a4b24018cdffb281d852997cc9cac0c0223d1760abcca9",
+          "sha256": "5cefce96104e2560455ad980d3f15cf2877ba764a0fb9700491736b09e7a9aa8",
+          "sha1": "24fd1ef00dcb41a4b7a4a0631051fb27094b1a6e",
+          "md5": "fdd9c2a3198c0f0b42d129b3bc29723c"
+        }
+      ]
+    }
+  ]
+}
